@@ -11,14 +11,12 @@ th, td {
 }
 ul li {
   background: #ffe5e5;
-  padding: 5px;
-  margin-left: 35px;
+  padding: 2px;
+  font-weight: bold;
 }
-.lista{
-  padding: 20px;
+#list{
+  padding: 10px;
   background: #3399ff;
   font: 15px Arial, sans-serif;
-}
-.imagen{
   width: 200px;
 }
