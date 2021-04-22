@@ -16,11 +16,7 @@ ul li {
 
 a::before {
   content: "\27A4";
-  color: blue;
-}
-
-a {
-  color: red;
+  color: white;
 }
 
 img {
@@ -36,4 +32,22 @@ img {
 
 .row {
   margin: 10px;
+}
+
+h1 {
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+
+@media (min-width:600px) {
+  h1::before {
+    content: "BIENVENIDOS A LA BIOGRAFIA DE PEDRO JOSE ALONZO";
+  }
+}
+
+@media (max-width:599px) {
+  h1::before {
+    content: "BIENVENIDOS";
+  }
 }

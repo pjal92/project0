@@ -1,5 +1,9 @@
 $color: red;
 
-div {
-  background: $color;
+h1 {
+  background-color: $color;
+}
+
+a {
+  color: $color;
 }
