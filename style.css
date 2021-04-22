@@ -1,11 +1,11 @@
 table {
+  margin: 10px;
   width: 100%;
   border: 1px solid #000;
   border-collapse: collapse;
-  font: 15px Arial, sans-serif;
 }
 
-th, td {
+th, td, tr {
   text-align: center;
   border: 1px solid #000;
   padding: 10px;
@@ -30,4 +30,12 @@ a {
 img {
   border-radius: 10px;
   width: 200px;
+}
+
+#list {
+  margin: 10px;
+  padding: 5px;
+  background: #3399ff;
+  width: 200px;
+  border-radius: 10px;
 }
