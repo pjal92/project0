@@ -42,7 +42,7 @@ h1 {
 
 @media (min-width:600px) {
   h1::before {
-    content: "BIENVENIDOS A LA BIOGRAFIA DE PEDRO JOSE ALONZO";
+    content: "BIENVENIDOS A LA PAGINA PRINCIPAL DE PEDRO JOSE ALONZO";
   }
 }
 
